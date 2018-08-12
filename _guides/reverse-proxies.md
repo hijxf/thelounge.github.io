@@ -3,6 +3,8 @@ layout: documentation
 title: How to proxy The Lounge behind common web servers
 ---
 
+{% include toc.md %}
+
 Serving The Lounge through a reverse proxy instead of the built-in HTTP server
 comes with a few benefits:
 

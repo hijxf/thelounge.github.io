@@ -8,6 +8,8 @@ redirect_from:
 
 Once The Lounge is installed, a program called `thelounge` is now available.
 
+{% include toc.md %}
+
 ## Command line help
 
 To get general information about the program and an overview of the available

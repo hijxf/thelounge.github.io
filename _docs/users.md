@@ -19,6 +19,8 @@ location can be changed by setting the `THELOUNGE_HOME` environment variable
 
 Note: In public mode, none of the commands listed below are available.
 
+{% include toc.md %}
+
 ## Listing all users
 
 To get a list of all existing users, use the `list` command:
