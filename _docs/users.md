@@ -6,7 +6,7 @@ redirect_from:
   - /docs/server/configuration.html
 ---
 
-In [private mode](/docs/configuration.html#public), only authorized users can
+In [private mode](/docs/configuration#public), only authorized users can
 access and use The Lounge.
 
 All user configurations are stored in the `${THELOUNGE_HOME}/users/` folder, in
@@ -15,7 +15,7 @@ users to their IRC networks and channels.
 
 By default, those files are stored in the `~/.thelounge/users/` folder. This
 location can be changed by setting the `THELOUNGE_HOME` environment variable
-(see [Usage](/docs/usage.html#thelounge_home)).
+(see [Usage](/docs/usage#thelounge_home)).
 
 Note: In public mode, none of the commands listed below are available.
 

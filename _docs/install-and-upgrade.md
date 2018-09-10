@@ -32,14 +32,14 @@ control with `systemctl status|start|restart|stop|...`.
 The Lounge is now up and running **in private mode** at <http://localhost:9000>.
 
 Its configuration file is located at `/etc/thelounge/config.js`. To configure
-The Lounge, go to [the configuration section](/docs/configuration.html).
+The Lounge, go to [the configuration section](/docs/configuration).
 
 To upgrade The Lounge, simply follow these steps again after downloading a new
 `thelounge.deb` file, and restart the service.
 
 You might want to serve The Lounge behind a reverse proxy such as Nginx. To know
 more about the benefits and steps, follow
-[the guide on reverse proxies ](/docs/guides/reverse-proxies.html).
+[the guide on reverse proxies](/docs/guides/reverse-proxies).
 
 ## Arch Linux
 
@@ -75,11 +75,11 @@ service:
   your home directory in `~/.thelounge/config.js`.
 
 To configure The Lounge, go to
-[the configuration section](/docs/configuration.html).
+[the configuration section](/docs/configuration).
 
 You might want to serve The Lounge behind a reverse proxy such as Nginx. To know
 more about the benefits and steps, follow
-[the guide on reverse proxies](/docs/guides/reverse-proxies.html).
+[the guide on reverse proxies](/docs/guides/reverse-proxies).
 
 ## From npm releases
 
@@ -117,16 +117,16 @@ If `thelounge` is not found by your shell, you will need to add the output of `y
 The Lounge is now up and running **in private mode** at <http://localhost:9000>.
 
 Read more about how to use The Lounge from the command line in
-[the CLI usage section](/docs/usage.html).
+[the CLI usage section](/docs/usage).
 
 Its configuration file is located at `~/.thelounge/config.js`. To configure The
-Lounge, go to [the configuration section](/docs/configuration.html).
+Lounge, go to [the configuration section](/docs/configuration).
 
 To upgrade The Lounge, simply re-run the `install` command above, and restart it.
 
 You might want to serve The Lounge behind a reverse proxy such as Nginx. To know
 more about the benefits and steps, follow
-[the guide on reverse proxies ](/docs/guides/reverse-proxies.html).
+[the guide on reverse proxies](/docs/guides/reverse-proxies).
 
 ## Docker
 
@@ -196,17 +196,17 @@ thelounge start
 The Lounge is now up and running **in private mode** at <http://localhost:9000>.
 
 Read more about how to use The Lounge from the command line in
-[the CLI usage section](/docs/usage.html).
+[the CLI usage section](/docs/usage).
 
 Its configuration file is located at `~/.thelounge/config.js`. To configure The
-Lounge, go to [the configuration section](/docs/configuration.html).
+Lounge, go to [the configuration section](/docs/configuration).
 
 To upgrade The Lounge, simply `git pull` the repository, re-run the `install` and
 `build` commands above, and restart it.
 
 You might want to serve The Lounge behind a reverse proxy such as Nginx. To know
 more about the benefits and steps, follow
-[the guide on reverse proxies ](/docs/guides/reverse-proxies.html).
+[the guide on reverse proxies](/docs/guides/reverse-proxies).
 
 ## Unofficial install methods
 
@@ -214,7 +214,7 @@ Over time, people have come up with recipes to install The Lounge on different
 setups and platforms, with different tooling, etc. These are not officially
 supported (even when hosted on this website), so use them at your own risk:
 
-- [Install on Heroku](/docs/unofficial-install-methods/heroku.html)
+- [Install on Heroku](/docs/unofficial-install-methods/heroku)
 - [OpenShift Online recipe](https://github.com/pacbard/openshift-thelounge)
 - [Ansible role using Supervisor](https://github.com/astorije/ansible-lounge)
 - [ARMHF Docker images](https://hub.docker.com/r/lsioarmhf/thelounge/)

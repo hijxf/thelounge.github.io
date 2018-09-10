@@ -35,5 +35,5 @@ A note of warning: when querying other users, know that their clients might
 inform them that you are requesting information about them, in the form of a
 notification or sound.
 
-If you want to learn more about CTCP, [this document](http://modern.ircdocs.horse/ctcp.html) is a great reference, more
+If you want to learn more about CTCP, [this document](http://modern.ircdocs.horse/ctcp) is a great reference, more
 technical and in-depth that this high-level guide.
