@@ -4,7 +4,7 @@ title: Getting started
 order: 1
 ---
 
-Welcome to The Lounge, web-based
+Welcome to The Lounge, a web-based
 [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) client for the modern
 world! ❤️
 
