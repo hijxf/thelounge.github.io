@@ -270,3 +270,5 @@ div.preview[data-url*="github.com"] {
 	white-space: initial;
 }
 ```
+
+{% include abbreviations.md %}

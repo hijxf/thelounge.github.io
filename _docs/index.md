@@ -32,4 +32,4 @@ and thank him very much for his work!
 Enjoy The Lounge, and make sure to join us on our **official Freenode channel
 `#thelounge`**!
 
-*[IRC]: Internet Relay Chat
+{% include abbreviations.md %}

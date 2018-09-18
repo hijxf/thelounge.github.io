@@ -34,3 +34,5 @@ When using the comma-separated `join` or `channels` keys, alphanumeric sequences
 `#foo`.<br>
 If you need to explicitly use a `#` character, you must use `%23` instead. For example, `?join=%23%23bar` fills the form field with `##bar`.<br>
 Similarly, you must use `%26` for `&`-prefixed channels.
+
+{% include abbreviations.md %}
