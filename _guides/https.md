@@ -14,7 +14,7 @@ Assuming you have a valid email address at `email@example.com`, and want to
 serve The Lounge at `https://thelounge.example.com`, run these commands on your
 server:
 
-```sh
+```
 git clone https://github.com/letsencrypt/letsencrypt
 cd letsencrypt/
 ./letsencrypt-auto certonly --standalone --email email@example.com -d thelounge.example.com

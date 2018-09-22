@@ -19,7 +19,7 @@ Then download `thelounge.deb` located at the bottom of
 
 Finally, open a terminal and install the downloaded package using:
 
-```sh
+```
 sudo dpkg --install thelounge.deb
 ```
 
@@ -50,14 +50,14 @@ Please follow the
 to install this package from the AUR. For example, to install it using an AUR
 helper:
 
-```sh
+```
 pacaur -aS thelounge
 yaourt -aS thelounge
 ```
 
 Then enable and start the `thelounge.service` unit using:
 
-```sh
+```
 systemctl enable --now thelounge.service
 ```
 
@@ -98,7 +98,7 @@ If you are not able to install yarn and need to use [npm](https://npmjs.com), be
 
 Then install The Lounge using:
 
-```sh
+```
 yarn global add thelounge
 ```
 
@@ -107,7 +107,7 @@ Note that installing from npm does not daemonize nor autostart The Lounge.
 
 Start the server manually using:
 
-```sh
+```
 thelounge start
 ```
 
@@ -173,7 +173,7 @@ choosing your distribution in the list.
 
 The following commands install the development version of The Lounge:
 
-```sh
+```
 git clone https://github.com/thelounge/thelounge
 cd thelounge
 yarn install
@@ -186,7 +186,7 @@ Note that installing from source does not daemonize nor autostart The Lounge.
 
 Start the server manually using:
 
-```sh
+```
 thelounge start
 ```
 

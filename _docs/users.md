@@ -25,7 +25,7 @@ Note: In public mode, none of the commands listed below are available.
 
 To get a list of all existing users, use the `list` command:
 
-```sh
+```
 thelounge list
 ```
 
@@ -41,7 +41,7 @@ because no users are created by default:
 
 To add a new user, use the `add` command:
 
-```sh
+```
 thelounge add <name>
 ```
 
@@ -77,7 +77,7 @@ without having to restart. In fact, this is reported as such in the output of
 
 Similarly, the following command deletes the configuration of a given user:
 
-```sh
+```
 thelounge remove <name>
 ```
 
@@ -95,7 +95,7 @@ Note that this does not delete the logs for this user.
 
 If a user loses their password, you can reset it with the `reset` command:
 
-```sh
+```
 thelounge reset <name>
 ```
 
@@ -114,7 +114,7 @@ instance of The Lounge will report:
 The `edit` command opens `vi` (or whatever program you set in your `$EDITOR`
 environment variable if any) with the configuration file of a given user:
 
-```sh
+```
 thelounge edit <name>
 ```
 

@@ -119,7 +119,7 @@ Disable Apps
 
 First, install redbird:
 
-```sh
+```
 yarn add redbird
 ```
 
