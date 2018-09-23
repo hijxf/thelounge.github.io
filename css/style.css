@@ -83,9 +83,6 @@ img {
 	font-weight: 700;
 	color: inherit;
 }
-#nav a i.fa-2x {
-	line-height: 50px;
-}
 #nav a:hover,
 #nav button:hover {
 	color: #fff;
@@ -376,9 +373,9 @@ h3:hover a.link-anchor {
 }
 
 a.link-anchor {
-	padding-right: 25px;
+	padding-right: 10px;
 	position: absolute;
-	margin-left: -25px;
+	margin-left: -30px;
 }
 
 .app-stores,
@@ -444,6 +441,14 @@ a.link-anchor {
 .terminal-bold {
 	color: white;
 	font-weight: bold;
+}
+
+/*
+ * For some reason, Font Awesome 5 icons do not keep their expected weight,
+ * which messes up with, for example, the GitHub icon.
+ */
+.fab, .fas {
+	font-weight: normal;
 }
 
 /* Rouge syntax highlighting - Igorpro theme */
