@@ -3,6 +3,8 @@ description: "The official website for The Lounge, the self-hosted web IRC clien
 baseurl: ""
 kramdown:
   toc_levels: "2"
+include:
+  - _redirects
 plugins:
   - jekyll-redirect-from # https://github.com/jekyll/jekyll-redirect-from#jekyllredirectfrom
   - jekyll-sitemap
