@@ -247,7 +247,7 @@ img {
 	margin: 1.3em 0 .5em;
 }
 #main h1 {
-	margin-top: 0.8em;
+	margin-top: 0;
 	font-size: 2.5em;
 }
 #main h2 {
@@ -412,8 +412,8 @@ a.link-anchor {
 /* "Edit this page" button */
 
 .edit-page-btn {
-	float: right;
-	margin-top: 45px;
+	text-align: right;
+	margin-top: 15px;
 	font-size: .9em;
 }
 
